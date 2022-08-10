@@ -7,7 +7,12 @@
 + 开发层： VsCode
 
 ### 技术栈
-`TypeScript` `Wxml` `Scss` `微信开发API`
++ `TypeScript` 
++ `Wxml` 
++ `Less`
++ `Vant Weapp`
++ `Eslint`
++ `Prettier`
 
 ### 目录结构
 ```
@@ -48,3 +53,6 @@
 | 名称 | 状态 |
 | --- | --- |
 | 架构设计&搭建 | In progress |
+
+### 创建者
+[HoMeTown](https://github.com/HoMeTownSoCool)

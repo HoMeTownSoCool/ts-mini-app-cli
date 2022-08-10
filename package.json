@@ -1,0 +1,32 @@
+{
+  "name": "ts-mini-app-cli",
+  "version": "1.0.0",
+  "description": "ts-mini-app-cle",
+  "scripts": {
+    "lint": "eslint --fix ./ --ext .ts --ext .js",
+    "prettier": "prettier --config .prettierrc.js --write './**/*.{js,ts,scss,css,json,wxml}'",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@vant/weapp": "^1.10.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/eslint-plugin": "^7.18.10",
+    "@ecomfe/eslint-config": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^7.19.0ear",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "miniprogram-api-typings": "^2.8.3-1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.3"
+  }
+}

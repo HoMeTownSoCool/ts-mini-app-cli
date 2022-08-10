@@ -1,0 +1,10 @@
+<van-popup show="{{ show }}" round position="bottom" bind:close="onClose" close-on-click-overlay="{{true}}">
+  <van-picker
+    show-toolbar
+    columns="{{ columns }}"
+    default-index="{{ 4 }}"
+    bind:change="onSelectChange"
+    bind:cancel="onSelectCancel"
+    bind:confirm="onSelectConfirm"
+  />
+</van-popup>

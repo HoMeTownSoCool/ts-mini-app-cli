@@ -1,0 +1,8 @@
+<view class="home__wrap">
+  <view class="user-avatar__wrap">
+    <!-- home -->
+    <view>城市：{{city}}</view>
+    <van-button catchtap="onClickBtn">{{name}}</van-button>
+    <select-popup id="select-popup" columns="{{cityColumns}}" bindonSelectConfirmCb="onSelectComfirm"></select-popup>
+  </view>
+</view>

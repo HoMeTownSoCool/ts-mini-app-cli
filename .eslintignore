@@ -1,0 +1,5 @@
+# .eslintignore
+typings
+node_modules
+/miniprogram/miniprogram_npm
+/typings/types/wx
